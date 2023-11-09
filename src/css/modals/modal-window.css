@@ -27,7 +27,63 @@
   max-width: 520px;
 
   background: rgb(253, 251, 255);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
   padding: 20px;
 
   border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.change-name-form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.change-name-form-button {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.modal-window .user-avatar-box {
+  position: relative;
+}
+
+.modal-window .user-avatar {
+  --size: 70px;
+
+  width: var(--size);
+  height: var(--size);
+
+  background: rgb(218, 94, 94);
+
+  border-radius: 100%;
+}
+
+.modal-window .user-avatar-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  --size: 20px;
+
+  width: var(--size);
+  height: var(--size);
+
+  border-radius: 100%;
+
+  background: #000;
+  color: #fff;
 }
