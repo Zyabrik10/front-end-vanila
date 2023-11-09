@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+
+  <script src="./js/init-storage.js" type="module"></script>
+
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
   <link rel="stylesheet" href="../../css/index.css">
@@ -15,13 +18,15 @@
 
 <body>
   <div class="wrapper">
-    <load src="./components/Header/header.html" />
+    <load src="./partials/Header/header.html" />
     <main>
+      <load src="./pages/home/section/hero.html" />
       <div class="container">
-        <load src="./pages/home/section/hero.html" />
+        <load src="./partials/Forms/singup.html" />
+        <load src="./partials/Forms/signin.html" />
       </div>
     </main>
-    <load src="./components/Footer/footer.html" />
+    <load src="./partials/Footer/footer.html" />
   </div>
   <script src="./js/index.js" type="module"></script>
 </body>
